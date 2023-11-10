@@ -5,8 +5,8 @@ SET author_id=(SELECT author_id FROM authors WHERE author_name='Douglas Adams')
 WHERE title='The Hitchhiker''s Guide to the Galaxy';
 
 UPDATE books_table
-SET author_id=(SELECT author_id FROM authors WHERE author_name='Antoine de Saint-Exupéry')
-WHERE title='The Little Prince';
+SET author_id=(SELECT author_id FROM authors WHERE author_name='Antoine de Saint-Exupery')
+WHERE title='The Little Prince ';
 
 UPDATE books_table
 SET author_id=(SELECT author_id FROM authors WHERE author_name='Beatrix Potter')
@@ -30,6 +30,6 @@ WHERE title='The War of the Worlds';
 
 UPDATE books_table
 SET author_id=(SELECT author_id FROM authors WHERE author_name='Jane Austen')
-WHERE title='Pride and Prejudice ';
+WHERE title='Pride and Prejudice';
 
 SELECT * from books_table;
