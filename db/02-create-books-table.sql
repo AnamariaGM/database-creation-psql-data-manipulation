@@ -1,6 +1,6 @@
 \c my_bookshop;
 
--- create the books table here
+-- books table 
 
 CREATE TABLE books_table(
     book_id SERIAL PRIMARY KEY,
