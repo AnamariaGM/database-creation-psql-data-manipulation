@@ -8,7 +8,7 @@ Before getting started, ensure you have the following:
 ## Getting Started
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/AnamariaGM/Database-Creation-and-Data-Manipulation-with-PostgreSQL.git
+   git clone https://github.com/AnamariaGM/database-creation-psql-data-manipulation.git
    ```
 2. Navigate to the project directory:
    ```bash
